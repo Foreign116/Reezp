@@ -12,4 +12,9 @@
 			<a href="templates/pages/createAccountFull.php" class="right" ><img src="../../styles/css/Classic_sonic_run.svg.png" ></a>
 		</div>
 	</div>
+	<div class="row" style=" position: relative; top: 100px;">
+		<div class="col s4"><h1 class="blue-text flow-text left"> Login (Click Picture) </h1></div>
+		<div class="col s4"></div>
+		<div class="col s4"><h1 class="blue-text flow-text right "> Create Account (Click Picture) </h1></div>
+	</div>
 </div>
