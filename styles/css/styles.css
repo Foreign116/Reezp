@@ -1,0 +1,29 @@
+.AccountForm{
+	position: relative;
+	top: 5em !important;
+}
+
+.VerticalAlignDiv{
+  width: 100%;
+  height:100%;
+  min-height:600px; /*just for example*/
+  display: flex;
+  flex-direction: column; /* NEW */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.VerticalAlignDivNoCol{
+  width: 100%;
+  height:100%;
+  min-height:600px; /*just for example*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.noBorder{
+	border: none !important;
+}
