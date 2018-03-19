@@ -4,7 +4,7 @@ if(isset($_POST["createAccount"])){
 	$email = mysqli_real_escape_string($conn,$_POST['createEmail']);
 	$password = mysqli_real_escape_string($conn,$_POST['createPassword']);
 	$sk = mysqli_real_escape_string($conn,$_POST['sc']);
-	if(empty($sk) || $sk != 'haydensmiddlenameisjewish'){
+	if(empty($sk) || $sk != ''){
 		header('Location: create.php?accountCreation=Error'); 
 	}
 	else{
